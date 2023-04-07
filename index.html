@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 <body>
-  <link href="/node_modules/@getyoti/react-face-capture/vanilla/index.css" />
-  <script src="/node_modules/@getyoti/react-face-capture/vanilla/index.js" ></script>
+  <link href="node_modules/@getyoti/react-face-capture/vanilla/index.css" />
+  <script src="node_modules/@getyoti/react-face-capture/vanilla/index.js" ></script>
 
   <div id="container">
       <h1>Hello</h1>
@@ -10,7 +10,7 @@
   </div>
   <script>
     const props = {
-      faceCaptureAssetsRootUrl: '/node_modules/@getyoti/react-face-capture/vanilla/assets/face-capture/'
+      faceCaptureAssetsRootUrl: 'node_modules/@getyoti/react-face-capture/vanilla/assets/face-capture/'
     };
     const fcm = Yoti.FaceCaptureModule.render(props, document.getElementById('face-capture-module-root'));
 
